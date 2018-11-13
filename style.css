@@ -1,0 +1,299 @@
+
+/*********************
+controlling <a>
+*******************/
+a:active{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+body{
+    background-color: #222930;
+}
+.wrapper{
+    width: 1000px;
+    height: 100%;
+    margin:auto;
+}
+.navigation{
+    width: 1000px;
+    height:80px;
+    text-align: center;   
+}
+
+.navigation ul{
+    height: 80px;
+    padding: 30px 0;
+
+}
+
+.navigation ul li{
+    display: inline;
+    padding:25px 35px; 
+    overflow:hidden;
+
+}
+
+.navigation ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navigation ul li a:hover{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-bottom: 3px solid white;
+}
+
+
+.colored-bar{
+    width: 1000px;
+    height: 2px;
+}
+
+.bar1, .bar2,.bar3, .bar4, .bar5, .bar6{
+    width: 166px;
+    height: 2px;
+    background-color: #FFF7BC;
+    float: left;
+}
+.bar2{
+    background-color: #C7F466;
+}
+.bar3{
+    background-color: #FF9C5B;
+}
+.bar4{
+    background-color: #FF5475;
+}
+.bar5{
+    background-color: #DB3839;
+}
+.bar6{
+    background-color: #33cccc;
+    width: 167px;
+}
+
+
+.main-content{
+    margin-top:10px;
+    width:1000px;
+    height: 500px;
+}
+
+.left-content{
+    width:500px;
+    height: 500px;
+    float:left;
+}
+.homepage-left-content{
+    width:350px;
+    margin-left:80px;
+    margin-top:80px;
+    padding: 15px;
+    font-size: 21px;
+    font-style: italic;
+    font-weight:bolder;
+    color: #dad6d6;
+    border-bottom:1px solid #C7F466;
+    border-right:1px solid yellow;
+}
+
+.right-content{
+    width:500px;
+    height:500px;
+    float:left;
+
+}
+.right-content img{
+    height: 500px;
+    width: 500px;
+}
+.name{
+    width: 500px;
+    height: 100px;
+    font-size:3.5em;
+    font-weight: bold;
+    color:white;
+    background-color: #33cccc;
+    text-align: center;
+}
+.email{
+    font-size: 1.5em;
+    width: 500px;
+    height: 200px;
+    color:#dddddd;
+    text-align: center;
+}
+
+
+.address{
+    text-align: center;
+    font-size:1.2em;
+    height: 100px;
+    width: 500px;
+    color: #1a0008;
+    font-weight: bolder;
+    background-color: #ffffcc;
+}
+.borderline{
+    border-bottom: 1px solid #222930;
+}
+.sub-content{
+    margin-top:50px;
+    padding: 15px;
+    font-size: 17px;
+    font-weight:bolder;
+    color: #b9b0b0;
+    border:1px solid rgb(114, 145, 49);
+}
+
+/********************************************
+End of the main page css
+*********************************************/
+
+.employment-objective-content{
+    margin-top:10px;
+    padding: 15px;
+    font-size: 17px;
+    font-weight:bolder;
+    color: #b9b0b0;
+    border:1px solid rgb(114, 145, 49);
+}
+
+
+/********************************************
+End of the objective page css
+*********************************************/
+
+
+
+/********************************************
+Starting Education page css
+*********************************************/
+.my-education{
+    margin-left:55px;
+    margin-top:160px;
+    height: 200px;
+    width:375px;
+
+}
+.uni-name{
+    color:white;
+}
+.my-schools{
+    color:rgb(114, 145, 49);
+    border-left:3px solid #b8b4b4;
+    font-weight: bold;
+    font-size: 17px;
+}
+.my-schools p{
+    text-indent: 15px;
+}
+
+
+
+
+/********************************************
+Starting Skill page css
+*********************************************/
+.skills-small-size{
+    height: 250px;
+}
+.skills-bg{
+    background-image:url('skills-cover.jpg');
+}
+.skills-box{
+    margin:30px;
+    padding: 15px;
+    padding-left:25px;
+    padding-right:45px;
+    float:left;
+    font-weight: bolder;
+}
+    
+.php{
+    background-color:#C7F466;
+    width:15px;
+}
+.mysql{
+    background-color:rgb(219, 56, 15);
+    width:35px;
+}
+.java{
+    background-color:rgb(219, 182, 15);
+    width:35px;
+}
+.css{
+    background-color:rgb(95, 164, 253);
+    width:30px;
+}
+.js{
+    background-color:rgb(241, 231, 136);
+    width:50px;
+}
+.html5{
+    background-color:rgb(247, 160, 60);
+    width:40px;
+}
+.bootstrap{
+    background-color:rgb(147, 127, 235);
+    width:40px;
+}
+.python{
+    background-color:rgb(93, 116, 247);
+    width:40px;
+}
+.vue{
+    background-color:rgb(7, 134, 39);
+    width:40px;
+}
+
+
+/****************************
+
+*******************/
+.employment-container{
+ color: rgb(212, 203, 203);    
+}
+
+
+.projects{
+text-align: center;
+color: #33cccc;  
+}
+
+
+/*****************
+
+*/
+
+.project1-image{
+    height:500px;
+    height:500px;
+}
+
+
+
+/******
+contact
+*/
+.picture-border{
+    border-top: 1px solid #c7f466;
+    border-bottom: 1px solid #c7f466;
+    border-right: 1px solid #c7f466;
+}
